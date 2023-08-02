@@ -1,13 +1,41 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="icon" type="image/svg+xml" href="./images/favicon-32x32.png" />
+    <link rel="stylesheet" href="./style.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite App</title>
+    <title>Rock, Paper, Scissors</title>
   </head>
   <body>
-    <div id="app"></div>
+    <header>
+      <div class="info-container">
+        <img
+          class="info-container__logo"
+          src="./images/logo.svg"
+          alt="rock paper scissors"
+        />
+        <div class="score-container">
+          <p class="score-container__title">
+            Score <span class="score-container__counter">12</span>
+          </p>
+        </div>
+      </div>
+    </header>
+    <main>
+      <section class="game-section">
+        <button class="game-section__paper" type="button">
+          <img src="./images/icon-paper.svg" alt="paper button" />
+        </button>
+        <button class="game-section__scissors" type="button">
+          <img src="./images/icon-scissors.svg" alt="scissors button" />
+        </button>
+        <button class="game-section__rock" type="button">
+          <img src="./images/icon-rock.svg" alt="rock button" />
+        </button>
+      </section>
+      <button class="rules-btn" type="button">Rules</button>
+    </main>
     <script type="module" src="/main.js"></script>
   </body>
 </html>
