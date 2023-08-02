@@ -63,8 +63,7 @@ body {
   border: 2px solid var(--header-outline);
   border-radius: 1rem;
 }
-.info-container__logo {
-}
+
 .score-container {
   background-color: hsl(0, 0%, 100%);
   padding: 1.5rem 4rem;
