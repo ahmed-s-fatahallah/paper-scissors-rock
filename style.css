@@ -37,6 +37,8 @@ button {
   background: none;
   border: none;
 }
+/**************************************/
+
 body {
   background-image: var(--radial-gradient);
   background-repeat: no-repeat;
@@ -76,4 +78,45 @@ body {
   line-height: 1;
   font-weight: 700;
   color: var(--dark-text);
+}
+.game-section {
+  width: 60%;
+  margin-top: 6rem;
+
+  margin-inline: auto;
+  background-image: url(./images/bg-triangle.svg);
+  background-repeat: no-repeat;
+  background-size: 30%;
+  background-position: center;
+
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+  grid-template-rows: repeat(2, 20rem);
+  justify-items: center;
+}
+
+.game-section__paper,
+.game-section__rock,
+.game-section__scissors {
+  background-color: #fff;
+  width: 12rem;
+  aspect-ratio: 1/1;
+  align-self: center;
+}
+.game-section__paper {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  justify-self: end;
+}
+.game-section__rock {
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+.game-section__scissors {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  justify-self: start;
+}
+
+.rules-btn {
 }
