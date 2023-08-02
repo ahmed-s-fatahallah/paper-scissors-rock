@@ -45,6 +45,8 @@ body {
   background-position: center;
   background-size: contain;
   height: 100vh;
+
+  position: relative;
 }
 .main-header {
   padding-top: 2rem;
@@ -103,14 +105,12 @@ body {
   aspect-ratio: 1/1;
   align-self: center;
 
-  cursor: pointer;
-
   border-radius: 50%;
   background-clip: padding-box, border-box;
   background-origin: border-box;
   border: 15px solid transparent;
 
-  box-shadow: inset 0px 5px 0px 0px rgb(0, 0, 0, 0.15);
+  box-shadow: inset 0px 5px 0px 0px hsla(0, 0%, 0%, 0.15);
 }
 
 .game-section__paper::after,
@@ -125,7 +125,7 @@ body {
   aspect-ratio: 1/1;
   background-color: transparent;
   border-radius: 50%;
-  border: 7px solid rgb(0, 0, 0, 0.3);
+  border: 7px solid hsla(0, 0%, 0%, 0.3);
   border-top: none;
   border-left: none;
   border-right: none;
@@ -156,4 +156,17 @@ body {
 }
 
 .rules-btn {
+  position: absolute;
+  bottom: 4%;
+  right: 2%;
+  padding: 0.8rem 3rem;
+
+  letter-spacing: 2px;
+  font-family: inherit;
+  font-size: 1.6rem;
+  color: hsl(0, 0%, 100%);
+  text-transform: uppercase;
+
+  border-radius: 0.6rem;
+  border: 1px solid hsl(0, 0%, 100%);
 }
