@@ -10,7 +10,7 @@
   --score-text: hsl(229, 64%, 46%);
   --header-outline: hsl(217, 16%, 45%);
 
-  --radial-gradient: repeating-radial-gradient(
+  --radial-gradient: radial-gradient(
     circle at top,
     hsl(214, 47%, 23%),
     hsl(238, 48%, 15%)
@@ -46,13 +46,16 @@ body {
   background-size: contain;
   height: 100vh;
 }
+.main-header {
+  padding-top: 2rem;
+}
 .info-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
   width: 60%;
   margin-inline: auto;
-  margin-top: 2rem;
+
   padding: 2rem;
   border: 2px solid var(--header-outline);
   border-radius: 1rem;
