@@ -84,7 +84,7 @@ body {
   font-weight: 700;
   color: var(--dark-text);
 }
-.game-section {
+.game-container {
   margin-top: 6rem;
 
   background-image: url(./images/bg-triangle.svg);
@@ -97,9 +97,9 @@ body {
   grid-template-rows: repeat(2, 20rem);
 }
 
-.game-section__paper,
-.game-section__rock,
-.game-section__scissors {
+.game-container__paper,
+.game-container__rock,
+.game-container__scissors {
   background-color: #fff;
   width: 13rem;
   aspect-ratio: 1/1;
@@ -113,9 +113,9 @@ body {
   box-shadow: inset 0px 5px 0px 0px hsla(0, 0%, 0%, 0.15);
 }
 
-.game-section__paper::after,
-.game-section__scissors::after,
-.game-section__rock::after {
+.game-container__paper::after,
+.game-container__scissors::after,
+.game-container__rock::after {
   content: "";
   display: block;
   position: absolute;
@@ -131,7 +131,7 @@ body {
   border-right: none;
 }
 
-.game-section__paper {
+.game-container__paper {
   position: relative;
   justify-self: end;
 
@@ -139,7 +139,7 @@ body {
   background-image: linear-gradient(90deg, hsl(0, 0%, 100%), hsl(0, 0%, 100%)),
     var(--paper-gradient);
 }
-.game-section__scissors {
+.game-container__scissors {
   position: relative;
   grid-column: 3/4;
   margin-left: -4rem;
@@ -147,7 +147,7 @@ body {
   background-image: linear-gradient(90deg, hsl(0, 0%, 100%), hsl(0, 0%, 100%)),
     var(--scissors-gradient);
 }
-.game-section__rock {
+.game-container__rock {
   position: relative;
   grid-column: 2/3;
   align-self: start;
@@ -223,7 +223,7 @@ body {
   }
 }
 
-.selection-section {
+.selections {
   margin-inline: auto;
   width: 60%;
   text-align: center;
@@ -251,9 +251,9 @@ body {
   margin-bottom: 7rem;
 }
 
-.game-section__paper--lg,
-.game-section__scissors--lg,
-.game-section__rock--lg {
+.game-container__paper--lg,
+.game-container__scissors--lg,
+.game-container__rock--lg {
   display: block;
   scale: 1.3;
 }
