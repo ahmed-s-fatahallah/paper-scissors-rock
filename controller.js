@@ -1,5 +1,9 @@
 import { generateHousePickIndex, winCondition } from "./model";
-import { renderGameMarkup, gameManager, showAndHideRules } from "./view";
+import {
+  renderGameMarkup,
+  gameManager,
+  showAndHideRules,
+} from "./mainGameView";
 
 const init = () => {
   showAndHideRules();
