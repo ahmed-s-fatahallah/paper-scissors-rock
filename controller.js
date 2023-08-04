@@ -1,3 +1,8 @@
-import { gameManager } from "./view";
+import { gameManager, showAndHideRules } from "./view";
 
-gameManager();
+const init = () => {
+  showAndHideRules();
+  gameManager();
+};
+
+init();

@@ -1,4 +1,7 @@
 export const DOM = {
-  score: document.querySelector(".score-container__counter"),
-  gameSection: document.querySelector(".game-section"),
+  scoreCounterEl: document.querySelector(".score-container__counter"),
+  gameSectionEl: document.querySelector(".game-section"),
+  rulesBtnEl: document.querySelector(".rules-btn"),
+  rulesModalEl: document.querySelector(".rules-modal"),
+  rulesWindowBtnEl: document.querySelector(".rules-header__btn"),
 };

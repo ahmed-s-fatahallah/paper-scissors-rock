@@ -1,5 +1,15 @@
 import { DOM } from "./helper";
 
+export const showAndHideRules = () => {
+  DOM.rulesBtnEl.addEventListener("click", () => {
+    DOM.rulesModalEl.showModal();
+  });
+
+  DOM.rulesWindowBtnEl.addEventListener("click", () => {
+    DOM.rulesModalEl.close();
+  });
+};
+
 const startScreen = () => {};
 
 export const gameManager = () => {
