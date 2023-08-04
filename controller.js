@@ -1,8 +1,10 @@
-import { gameManager, showAndHideRules } from "./view";
+import { generateHousePickIndex, winCondition } from "./model";
+import { renderGameMarkup, gameManager, showAndHideRules } from "./view";
 
 const init = () => {
   showAndHideRules();
-  gameManager();
+  renderGameMarkup();
+  gameManager(generateHousePickIndex, winCondition);
 };
 
 init();
