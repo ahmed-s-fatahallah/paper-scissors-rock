@@ -228,7 +228,7 @@ body {
   width: 60%;
   text-align: center;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-evenly;
 
   margin-top: 6rem;
@@ -251,11 +251,12 @@ body {
   margin-bottom: 7rem;
 }
 
-.game-container__paper--lg,
-.game-container__scissors--lg,
-.game-container__rock--lg {
+.selection-container .game-container__paper,
+.selection-container .game-container__scissors,
+.selection-container .game-container__rock {
   display: block;
-  scale: 1.3;
+  transform: scale(1.5);
+  margin: 0;
 }
 
 .result-container {
