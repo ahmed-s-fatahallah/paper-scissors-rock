@@ -4,14 +4,14 @@ export const renderSelectionMarkup = () => {
   const selectionMarkup = `
     <div class="selections">
           <div class="selection-container">
-            <p class="selection-container__title">you picked</p>
+            <p class="selection-container__title">You picked</p>
             <div class="selection-container__bg" id= "your-pick">
             </div>
           </div>
           <div class= "results">
           </div>
           <div class="selection-container">
-            <p class="selection-container__title">The House Picked</p>
+            <p class="selection-container__title">House Picked</p>
             <div class="selection-container__bg" id= "house-pick">
             </div>
           </div>
