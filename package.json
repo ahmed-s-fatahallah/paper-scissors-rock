@@ -9,7 +9,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "predeploy": "rm -rf ./dist && pnpm run build",
-    "deploy": "gh-pages -r https://github.com/ahmed-s-fatahallah/rock-paper-scissors -o github -d dist"
+    "deploy": "gh-pages -r https://github.com/ahmed-s-fatahallah/rock-paper-scissors -o origin -d dist"
   },
   "devDependencies": {
     "vite": "^4.4.5"
