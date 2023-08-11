@@ -6,9 +6,14 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "rm -rf ./dist && pnpm run build",
+    "deploy": "gh-pages -r https://github.com/ahmed-s-fatahallah/paper-scissors-rock -o github -d dist"
   },
   "devDependencies": {
     "vite": "^4.4.5"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0"
   }
 }
