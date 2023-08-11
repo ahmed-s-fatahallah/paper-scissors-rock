@@ -1,8 +1,8 @@
 import { DOM } from "./helper";
 import { checkWinCondition, renderSelectionMarkup } from "./selectionView";
-import paperIcon from "./assets/images/icon-paper.svg";
-import rockIcon from "./assets/images/icon-rock.svg";
-import scissorsIcon from "./assets/images/icon-scissors.svg";
+import paperIcon from "./images/icon-paper.svg";
+import rockIcon from "./images/icon-rock.svg";
+import scissorsIcon from "./images/icon-scissors.svg";
 
 let yourPick, housePick;
 const gameBtnsMarkup = [

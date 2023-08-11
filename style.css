@@ -87,7 +87,7 @@ body {
 .game-container {
   margin-top: 6rem;
 
-  background-image: url(./../assets/images/bg-triangle.svg);
+  background-image: url(./images/bg-triangle.svg);
   background-repeat: no-repeat;
   background-size: 23rem;
   background-position: center;
