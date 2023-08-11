@@ -2,7 +2,6 @@
   "name": "rock-paper-scissors",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "homepage": "https://ahmed-s-fatahallah.github.io/rock-paper-scissors/",
   "scripts": {
     "dev": "vite",
